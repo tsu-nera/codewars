@@ -1,7 +1,7 @@
 (ns kata)
 
 (defn positive-sum [xs]
-  )
+  xs)
 
 ;;; 2021.10.21
 ;; https://www.codewars.com/kata/5715eaedb436cf5606000381/train/clojure
