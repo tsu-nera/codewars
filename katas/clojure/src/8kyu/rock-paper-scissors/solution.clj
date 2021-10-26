@@ -1,20 +1,17 @@
 (ns rock-paper-scissors)
 
-(defn rps [p1 p2]
-  )
-
-
 (def winner-states
   {"rock" "scissors"
    "scissors" "paper"
    "paper" "rock"})
 
-(defn rock-paper-scissors-game
+(defn rps
   ([player1 player2]
    (cond
      (= player1 player2) "Draw!"
      (= (get winner-states player1) player2) "Player 1 won!"
-     :else "Player 2 won!"
+     (= (get winner-states player2) player1) "Player 2 won!"
+     :else "Are you playing rock paper scissors lizard spock?"
      )))
 
 ;; 学習素材
@@ -24,6 +21,16 @@
 
 ;; ===================================
 ;; 学習メモ
+
+;; 2021.10.26
+
+;; youtubeの再生場所を覚えておきたいな
+
+;; extendedのゲームはみるだけでいいや
+
+;; 飽きたなw やめるか...
+
+;; とりあえず提出したので完了
 
 ;; 2021.10.24
 
