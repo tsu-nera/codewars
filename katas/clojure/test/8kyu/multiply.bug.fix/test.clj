@@ -1,7 +1,7 @@
 (ns multiply.bug.fix-test
   (:require [clojure.test :refer :all]
             [multiply.bug.fix :refer :all]))
-            
+
 (deftest Multiply-Test
   (testing "6 * 4 = 24"
     (is (= (multiply 6 4) 24)))
