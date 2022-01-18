@@ -1,10 +1,24 @@
-(ns multiply.bug.fix)
+(ns codewars.core)
 
+(defn foo
+  "I don't do a whole lot."
+  [x]
+  (println x "Hello, World!"))
+
+;; ======
+;; 8kyu
+;; ======
+
+;; ====================================================
+;; Multiply
+;; url: https://www.codewars.com/kata/50654ddff44f800200000004/train/clojure
 (defn multiply [a b]
  (* a b))
 
-;; =============
-
+;; 2022.01.19
+;; 再び戻ってきた.
+;; 全てを単一のcore.cljとtest_core.cljに記述していく.
+;;
 ;; 2021.10.26
 ;; これに対応するテストコードを動かす
 
